@@ -42,35 +42,35 @@ public class Login extends javax.swing.JFrame {
                 TextSenhaActionPerformed(evt);
             }
         });
-        getContentPane().add(TextSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 550, 140, -1));
+        getContentPane().add(TextSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 270, 140, 20));
 
         TextUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TextUsuarioActionPerformed(evt);
             }
         });
-        getContentPane().add(TextUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 490, 140, 20));
+        getContentPane().add(TextUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 220, 140, 20));
 
         jLabelSenha.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabelSenha.setForeground(new java.awt.Color(255, 255, 255));
         jLabelSenha.setText("SENHA");
-        getContentPane().add(jLabelSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 550, -1, -1));
+        getContentPane().add(jLabelSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, -1, -1));
 
         jLabelUsuario.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabelUsuario.setForeground(new java.awt.Color(255, 255, 255));
         jLabelUsuario.setText("USUARIO");
-        getContentPane().add(jLabelUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 490, -1, -1));
+        getContentPane().add(jLabelUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 220, -1, -1));
 
         jlabelLogin.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jlabelLogin.setForeground(new java.awt.Color(255, 255, 255));
         jlabelLogin.setText("LOGIN ");
-        getContentPane().add(jlabelLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 390, 120, -1));
+        getContentPane().add(jlabelLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 140, 280, -1));
 
         JlabelFundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/imagens/painel-login.png"))); // NOI18N
-        getContentPane().add(JlabelFundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 300, 520, 480));
+        getContentPane().add(JlabelFundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 560, 310));
 
-        jLabelFundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/imagens/Logo.jpg"))); // NOI18N
-        getContentPane().add(jLabelFundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 785, 1159));
+        jLabelFundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/imagens/Logo.png"))); // NOI18N
+        getContentPane().add(jLabelFundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1960, 710));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
