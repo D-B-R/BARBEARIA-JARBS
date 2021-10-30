@@ -22,6 +22,8 @@ public class Main {
       
       Usuario usuario = new Usuario(1, "barbeiro", "senha");
       System.out.println(usuario.getNome());
+      
+
   } 
   
 

@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author DELL
  */
-public class Pessoa {
+   abstract class Pessoa {
     
     protected int id;    
     protected String nome;
